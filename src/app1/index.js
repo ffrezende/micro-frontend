@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import singleSpaReact from 'single-spa-react';
-import Root from './root.component.tsx';
+import Root from './pages/root.component.tsx';
 
 const reactLifecycles = singleSpaReact({
   React,
