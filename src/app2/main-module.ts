@@ -7,6 +7,7 @@ import {enableProdMode} from '@angular/core';
 import {RouterModule, Routes} from "@angular/router";
 import {APP_BASE_HREF} from "@angular/common";
 
+
 const appRoutes: Routes = [
   {
     path: 'subroute1',
@@ -25,7 +26,7 @@ enableProdMode();
     BrowserModule,
     RouterModule.forRoot(appRoutes, {}),
   ],
-  providers: [{provide: APP_BASE_HREF, useValue: '/app2/'}],
+  providers: [{provide: APP_BASE_HREF, useValue: '/'}],
   declarations: [
     App2,
     Subroute1,
